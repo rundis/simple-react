@@ -1,12 +1,10 @@
 import * as ReactDOM from "react-dom";
 import * as React from "react";
 
-
 ReactDOM.render(
   React.createElement("div", {}, "Hello Simple React!"),
   document.getElementById("root")
 );
-
 
 // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
 // Learn more: https://snowpack.dev/concepts/hot-module-replacement
